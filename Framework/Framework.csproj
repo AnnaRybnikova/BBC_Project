@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="3.141.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="80.0.3987.10600" />
+    <PackageReference Include="DotNetSeleniumExtras.PageObjects" Version="3.11.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+    <Folder Include="Business_Logic\" />
+    <Folder Include="Driver\" />
+    <Folder Include="Types\" />
+    <Folder Include="Pages\News\" />
+    <Folder Include="Pages\BBC\" />
+    <Folder Include="Pages\Sport\" />
+  </ItemGroup>
+</Project>
